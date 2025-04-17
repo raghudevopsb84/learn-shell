@@ -29,5 +29,7 @@ echo x - ${x}
 
 echo z - ${z}
 
+# LHS - z=20 bash 03-variables.sh
+# Env Variable -  export z=30 ; bash 03-variables.sh
 
 
