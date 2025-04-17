@@ -14,3 +14,6 @@ example() {
 
 example
 
+
+# If we declare a variable in Main program, Function can access it and vice-versa
+
