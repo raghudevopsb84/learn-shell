@@ -47,3 +47,19 @@ echo n - ${n}
 
 
 
+# So far the input is provided, either by hardcoding, or by user from cli.
+# At times we need to declare the variables dynamically.
+
+# Dynamic Variables
+# 1. Command Substitution
+# Syn: var=$(command)
+DATE=$(date)
+echo Today Date - ${date}
+# 2. Arithmetic Substitution
+# Syn: var=$((arithmetic expression))
+ADD=$((100+200))
+echo Add of 100 + 200 is ${ADD}
+
+
+
+
