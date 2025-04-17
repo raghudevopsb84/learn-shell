@@ -54,7 +54,7 @@ echo n - ${n}
 # 1. Command Substitution
 # Syn: var=$(command)
 DATE=$(date)
-echo Today Date - ${date}
+echo Today Date - ${DATE}
 # 2. Arithmetic Substitution
 # Syn: var=$((arithmetic expression))
 ADD=$((100+200))
