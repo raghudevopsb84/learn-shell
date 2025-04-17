@@ -10,7 +10,7 @@ y=Hello
 echo x - $x
 echo x - ${x}
 
-# Variables are used to avoid repetetion, Meaning if we have some data needs to be used in many places in the script, we declare that as a variable
+# Variables are used to avoid repetition, Meaning if we have some data needs to be used in many places in the script, we declare that as a variable
 # then we will access that variable. Any situation the data needs to be changed, we change in one place, it changes in all over places.
 
 # Naming Convention for variables
@@ -36,6 +36,14 @@ echo z - ${z}
 n=$1
 echo n - ${n}
 
+# RHS - Special Variables
+# bash script 100 200 300
+# $0 - script
+# $1 - 100
+# $2 - 200
+# $3 - 300 ..... likewise we can go for $n
+# $* - 100 200 300  - All Inputs
+# $# - 3  - Number of Inputs
 
 
 
