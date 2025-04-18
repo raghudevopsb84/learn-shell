@@ -15,6 +15,9 @@
 x=10
 while [ $x -gt 0 ]; do
   echo Loop in while command
+  x=$(($x-1))
 done
+
+
 
 
