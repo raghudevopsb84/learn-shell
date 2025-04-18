@@ -22,6 +22,9 @@ for fruit in apple banana orange ; do
   echo Fruit Name - $fruit
 done
 
+for username in steve john raju; do
+  echo Adding User - $username
+done
 
 
 
