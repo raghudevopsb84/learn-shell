@@ -73,4 +73,14 @@ fi
 
 ## In Expressions always use double quotes for variables. For numbers & strings it is not necessary.
 
+# Expressions can be logical combined as well.
+# -a - AND
+# -o - OR
+
+# exp1        exp2          AND         OR
+# true        true          true      true
+# true        false         false     true
+# false       true          false     true
+# false       false         false     false
+
 
